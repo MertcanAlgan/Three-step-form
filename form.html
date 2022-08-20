@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Step Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <form>
+                <div class="step step-1 active">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="last-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="nickName">Nick Name</label>
+                        <input type="text" id="nickName" name="nick-name">
+                    </div>
+                    <button type="button" class="nextButton">Next</button>
+                </div>
+                <div class="step step-2">
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone" name="phone-number">
+                    </div>
+                    <button type="button" class="prevButton">Previous</button>
+                    <button type="button" class="nextButton">Next</button>
+                </div>
+                <div class="step step-3">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="post-code">Post Code</label>
+                        <input type="number" id="post-code" name="post-code">
+                    </div>
+                    <button type="button" class="prevButton">Previous</button>
+                    <button type="submit" class="submitButton">Submit</button>
+                </div>
+                
+        </div>
+
+
+        </div>
+        </form>
+        </div>
+    </section>
+    <script src="form.js"></script>
+</body>
+</html>
